@@ -1,0 +1,17 @@
+@{
+    ViewData["Title"] = "RAG Q&A";
+}
+
+<h1>RAG Application</h1>
+
+<form action="/Home/Ask" method="post">
+    <label for="question">Ask a question:</label>
+    <input type="text" id="question" name="question" required />
+    <button type="submit">Ask</button>
+</form>
+
+@if (ViewBag.Answer != null)
+{
+    <h2>Answer:</h2>
+    <p>@ViewBag.Answer</p>
+}
