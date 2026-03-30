@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RAG_Weaviate_LangGraph_CSharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eee6a509d3c62b9b31d7868a1b9ec4df0b8d5117")]
 [assembly: System.Reflection.AssemblyProductAttribute("RAG_Weaviate_LangGraph_CSharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RAG_Weaviate_LangGraph_CSharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

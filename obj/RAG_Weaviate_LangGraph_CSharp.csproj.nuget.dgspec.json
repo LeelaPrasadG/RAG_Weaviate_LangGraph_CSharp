@@ -63,6 +63,10 @@
             "UglyToad.PdfPig": {
               "target": "Package",
               "version": "[1.7.0-custom-5, )"
+            },
+            "Weaviate.Client": {
+              "target": "Package",
+              "version": "[1.0.1, )"
             }
           },
           "imports": [

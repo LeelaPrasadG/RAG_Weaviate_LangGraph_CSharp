@@ -26,9 +26,11 @@ This is a RAG application using Microsoft Semantic Kernel for orchestration, in-
 
 ## How it works
 
-- Documents in RAG Docs are read, chunked, embedded, and stored in memory.
+- Documents in RAG Docs are read, chunked, embedded, and stored as local files in `WeaviateChunks`.
 
-- User asks question, top 3 chunks retrieved using cosine similarity.
+- Chunks are also sent to Weaviate vector DB for semantic retrieval.
+
+- User asks question, top chunks retrieved from Weaviate by embedding similarity.
 
 - LLM generates answer based on the chunks.
 

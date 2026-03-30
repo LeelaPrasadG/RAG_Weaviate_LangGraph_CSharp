@@ -12,6 +12,7 @@
     <PackageReference Include="Azure.AI.OpenAI" Version="1.0.0-beta.17" />
     <PackageReference Include="UglyToad.PdfPig" Version="1.7.0-custom-5" />
     <PackageReference Include="DotNetEnv" Version="3.0.0" />
+    <PackageReference Include="Weaviate.Client" Version="1.0.1" />
   </ItemGroup>
 
 </Project>
